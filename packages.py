@@ -1,7 +1,7 @@
 # Import pi function of math package
 from math import pi
 
-# Calculate C
+# Calculate Cassini oval circumference
 C = 2 * 0.43 * pi
 
 # Calculate A
