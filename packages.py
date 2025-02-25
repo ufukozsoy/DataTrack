@@ -34,3 +34,17 @@ np_weight_lb=np_baseball[:,1]
 
 # Print out height of 124th player
 print(np_baseball[123, 0])
+
+import numpy as np
+
+np_baseball = np.array(baseball)
+
+# Print out addition of np_baseball and updated
+
+print(np_baseball + updated)
+# Create numpy array: conversion
+conversion = np.array([0.0254, 0.453592, 1])
+
+
+# Print out product of np_baseball and conversion
+print(np_baseball * conversion)
