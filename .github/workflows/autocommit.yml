@@ -26,6 +26,6 @@ jobs:
         run: |
           git add .
           git commit -m "Automated commit: $(date)" || exit 0
-          git push
+          git push https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/ufukozsoy/DataTrack.git
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
