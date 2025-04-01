@@ -57,4 +57,5 @@ del(europe["australia"])
 
 # Print europe
 print(europe)
+print("australia" in europe)
 
