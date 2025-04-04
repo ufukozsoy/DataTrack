@@ -119,3 +119,10 @@ user_0 = {
     'first': 'enrico',
     'last': 'fermi',
 }
+
+# Build a dictionary of user information
+user_0 = {
+    'username': 'efermi',
+    'first': 'enrico',
+    'last': 'fermi',
+}
