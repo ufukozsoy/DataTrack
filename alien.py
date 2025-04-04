@@ -49,4 +49,44 @@ print(alien_0)
 del alien_0["points"]
 print(alien_0)
 
+#A Dictionary of Similar Objects
+alien_0 = {'color': 'green', 'points': 5}
+alien_1 = {'color': 'yellow', 'points': 10}
+alien_2 = {'color': 'red', 'points': 15}
+# Make a list of the aliens
+aliens = [alien_0, alien_1, alien_2]
+# Show the color of the first alien
+print(aliens[0]['color'])
+# Show the color of the second alien
+print(aliens[1]['color'])
+# Show the color of the third alien
+print(aliens[2]['color'])
+# Make an empty list for storing aliens
+aliens = []
+# Create 30 aliens
+for alien_number in range(30):
+    new_alien = {'color': 'green', 'points': 5, 'speed': 'slow'}
+    aliens.append(new_alien)
+# Show the first 5 aliens
+for alien in aliens[:5]:
+    print(alien)
+# Show how many aliens have been created
+print(f"Total number of aliens: {len(aliens)}")
+# Making a List in a Dictionary
+# Store information about a pizza being ordered
+pizza = {
+    'crust': 'thick',
+    'toppings': ['mushrooms', 'extra cheese'],
+}
+# Summarize the order
+print(f"You ordered a {pizza['crust']}-crust pizza"
+      f" with the following toppings:")
+for topping in pizza['toppings']:
+    print("\t" + topping)
+# Nesting
+# A list of dictionaries
+alien_0 = {'color': 'green', 'points': 5}
+alien_1 = {'color': 'yellow', 'points': 10}
+alien_2 = {'color': 'red', 'points': 15}
+
 
