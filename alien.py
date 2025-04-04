@@ -106,3 +106,16 @@ print(f"You ordered a {pizza['crust']}-crust pizza"
       f" with the following toppings:")
 for topping in pizza['toppings']:
     print("\t" + topping)
+
+# A dictionary in a dictionary
+user_0 = {
+    'username': 'efermi',
+    'first': 'enrico',
+    'last': 'fermi',
+}
+# Build a dictionary of user information
+user_0 = {
+    'username': 'efermi',
+    'first': 'enrico',
+    'last': 'fermi',
+}
