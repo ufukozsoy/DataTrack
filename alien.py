@@ -133,3 +133,24 @@ user_0['age'] = 39
 print(f"Username: {user_0['username']}")
 print(f"Full name: {user_0['first']} {user_0['last']}")
 print(f"Location: {user_0['location']}")
+print(f"Age: {user_0['age']}")
+# A dictionary of similar objects
+# Store information about a pizza being ordered
+pizza = {
+    'crust': 'thick',
+    'toppings': ['mushrooms', 'extra cheese'],
+}
+# Summarize the order
+print(f"You ordered a {pizza['crust']}-crust pizza"
+      f" with the following toppings:")
+for topping in pizza['toppings']:
+    print("\t" + topping)
+# A dictionary in a dictionary
+user_0 = {
+    'username': 'efermi',
+    'first': 'enrico',
+    'last': 'fermi',
+}
+# Store additional information about the user
+user_0['location'] = 'chicago'
+user_0['age'] = 39
