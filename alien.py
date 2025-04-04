@@ -126,3 +126,10 @@ user_0 = {
     'first': 'enrico',
     'last': 'fermi',
 }
+# Store additional information about the user
+user_0['location'] = 'chicago'
+user_0['age'] = 39
+# Display the user's information
+print(f"Username: {user_0['username']}")
+print(f"Full name: {user_0['first']} {user_0['last']}")
+print(f"Location: {user_0['location']}")
