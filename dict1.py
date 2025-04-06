@@ -58,4 +58,10 @@ del(europe["australia"])
 # Print europe
 print(europe)
 print("australia" in europe)
+# Print out the keys in europe
+print(europe.keys())
+# Print out the values in europe
+print(europe.values())
+# Print out the items in europe
+print(europe.items())
 
