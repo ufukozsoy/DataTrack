@@ -75,6 +75,15 @@ del(guest_list[0])
 #prove the list is empy
 print(guest_list)
 
+# print(guest_list[0])
+# print(guest_list[1])
+# print(guest_list[2])
+# print(guest_list[3])
+# print(guest_list[4])
+# print(guest_list[5])
+# print(guest_list[6])
+# print(guest_list[7])
+
 
 
 
