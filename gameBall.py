@@ -34,6 +34,15 @@ ball_x = WIDTH // 2
 ball_y = HEIGHT // 2
 ball_dx = random.choice([-BALL_SPEED, BALL_SPEED])
 ball_dy = random.choice([-BALL_SPEED, BALL_SPEED])
+# Ensure the ball is moving diagonally
+if ball_dx == 0:
+    ball_dx = BALL_SPEED
+if ball_dy == 0:
+    ball_dy = BALL_SPEED
+# Ball initial position
+ball_x = WIDTH // 2
+ball_y = HEIGHT // 2
+# Ball initial velocity
 
 # Paddle position
 paddle_x = (WIDTH - PADDLE_WIDTH) // 2
@@ -96,5 +105,9 @@ while running:
 
     # Cap the frame rate
     clock.tick(60)
+# Quit pygame
 
 pygame.quit()
+# Exit the program
+import sys
+sys.exit()
