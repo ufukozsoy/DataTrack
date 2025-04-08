@@ -28,6 +28,12 @@ pygame.display.set_caption("Ball Game")
 
 # Clock for controlling frame rate
 clock = pygame.time.Clock()
+# Initialize ball position and velocity
+
+ball_x = WIDTH // 2
+ball_y = HEIGHT // 2
+ball_dx = random.choice([-BALL_SPEED, BALL_SPEED])
+ball_dy = random.choice([-BALL_SPEED, BALL_SPEED])
 
 # Ball position and velocity
 ball_x = WIDTH // 2
