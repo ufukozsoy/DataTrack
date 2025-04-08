@@ -43,6 +43,12 @@ if ball_dy == 0:
 ball_x = WIDTH // 2
 ball_y = HEIGHT // 2
 # Ball initial velocity
+ball_dx = random.choice([-BALL_SPEED, BALL_SPEED])
+ball_dy = random.choice([-BALL_SPEED, BALL_SPEED])
+# Ensure the ball is moving diagonally
+if ball_dx == 0:
+    ball_dx = BALL_SPEED
+if ball_dy == 0:
 
 # Paddle position
 paddle_x = (WIDTH - PADDLE_WIDTH) // 2
