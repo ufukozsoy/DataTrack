@@ -59,6 +59,10 @@ del guests[0]
 del guests[0]
 del guests[0]
 print(guests)
+# print(guests[0])
+# print(guests[1])
+# print(guests[2])
+# print(guests[3])
 
 
 
