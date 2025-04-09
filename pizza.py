@@ -25,3 +25,12 @@ print(f"You have ordred a {pizza['crust']} crust with the following toppings:")
 
 for topping in pizza["toppings"]:
     print(f"{topping}")
+
+# A dictionary in a dictionary
+user_0={
+    "username":"efermi",
+    "first":"enrico",
+    "last":"fermi"
+}
+# Store additional information about the user
+user_0["location"]="chicago"
