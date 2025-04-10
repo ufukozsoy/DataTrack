@@ -14,3 +14,7 @@ print("My favourite foods are:")
 print(my_food)
 print("\nArkadasimin favourite foods are:")
 print(arkadasimin_food)
+#Output:
+#My favourite foods are:
+#['iskender', 'alinazik', 'patetes', 'kofte', 'tavuk', 'sucuk']
+#Arkadasimin favourite foods are:
