@@ -1,3 +1,9 @@
 motorcycles=["honda","mercedes","vw"]
 motorcycles.insert(1,"ducati")
 print(motorcycles)
+motorcycles.insert(0,"bmw")
+print(motorcycles)
+motorcycles.insert(2,"audi")
+print(motorcycles)
+motorcycles.insert(3,"ford")
+print(motorcycles)
