@@ -1,2 +1,8 @@
 message=input("Tell me something:")
 print(message)
+print(type(message))
+new_message=int(message)
+print(new_message)
+print(type(new_message))
+new_message=str(new_message)
+print(new_message)
