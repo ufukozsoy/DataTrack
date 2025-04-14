@@ -17,3 +17,8 @@ print(places)
 places.sort(reverse=True)
 print(places)
 print(len(places))
+# # To know number of guests
+# dinner_guests=['ali','mehmet','salih','kerem']
+# print(f"I am inviting {len(dinner_guests)} person for dinner")
+#
+# # To know number of guests
