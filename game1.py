@@ -18,7 +18,7 @@ def display_instructions():
 
 def play_game(player_name):
     score = 0
-    lives = 3
+    lives = 4
     actions = ['plastic', 'obstacle']
 
     print(f"Good luck, {player_name}! The game begins now!\n")
