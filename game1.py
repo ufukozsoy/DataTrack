@@ -13,7 +13,7 @@ def get_player_name():
 def display_instructions():
     print("\nInstructions:")
     print("1. Type 'collect' to pick up plastic.")
-    print("2. Type 'dodge' to avoid obstacles.")
+    print("2. Type 'dodge' to avoid obstacle.")
     print("3. Type 'quit' to exit the game.\n")
 
 def play_game(player_name):
