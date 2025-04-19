@@ -18,7 +18,7 @@ BLUE = (0, 0, 255)
 
 # Ball properties
 BALL_RADIUS = 10
-FRICTION = 0.98
+FRICTION = 0.97
 
 # Clock for controlling frame rate
 clock = pygame.time.Clock()
