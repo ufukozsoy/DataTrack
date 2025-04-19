@@ -17,7 +17,7 @@ RED = (255, 0, 0)
 BLUE = (0, 0, 255)
 
 # Ball properties
-BALL_RADIUS = 11
+BALL_RADIUS = 10
 FRICTION = 0.98
 
 # Clock for controlling frame rate
