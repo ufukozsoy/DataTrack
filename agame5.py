@@ -16,7 +16,7 @@ RED = (255, 0, 0)
 BLUE = (0, 0, 255)
 
 # Ball properties
-ball_radius = 15
+ball_radius = 14
 ball_x = WIDTH // 2
 ball_y = HEIGHT // 2
 ball_dx = 4 * random.choice([-1, 1])
