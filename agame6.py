@@ -15,7 +15,7 @@ def cricket_game():
             print("Invalid input! Please enter a number.")
             continue
         
-        computer_choice = random.randint(1, 8)
+        computer_choice = random.randint(1, 9)
         print(f"Computer chose: {computer_choice}")
         
         if player_choice == computer_choice:
