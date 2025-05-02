@@ -15,7 +15,7 @@ BLACK = (0, 0, 0)
 
 # Paddle dimensions
 PADDLE_WIDTH, PADDLE_HEIGHT = 10, 100
-BALL_RADIUS = 15
+BALL_RADIUS = 19
 
 # Paddle positions
 player1_x, player1_y = 50, HEIGHT // 2 - PADDLE_HEIGHT // 2
