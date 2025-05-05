@@ -13,7 +13,7 @@ def movie_guessing_game():
     print("Guess the movie title one letter at a time.")
     print("You have 6 incorrect attempts. Good luck!\n")
 
-    while attempts > 1 and "_" in hidden_movie:
+    while attempts > 2 and "_" in hidden_movie:
         print("Movie: " + " ".join(hidden_movie))
         guess = input("Enter a letter: ").lower()
 
