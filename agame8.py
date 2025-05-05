@@ -7,7 +7,7 @@ def movie_guessing_game():
     ]
     selected_movie = random.choice(movies).lower()
     hidden_movie = ["_" if char.isalpha() else char for char in selected_movie]
-    attempts = 8
+    attempts = 9
 
     print("Welcome to the Movie Guessing Game!")
     print("Guess the movie title one letter at a time.")
