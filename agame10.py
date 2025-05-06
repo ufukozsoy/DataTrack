@@ -11,7 +11,7 @@ def tv_series_game():
         "Sherlock",
         "The Crown",
         "The Witcher",
-        "Better Call Saul"
+        "Better Call Sal"
     ]
 
     print("Welcome to the TV Series Guessing Game!")
